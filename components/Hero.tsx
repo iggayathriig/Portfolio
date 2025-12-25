@@ -29,8 +29,8 @@ const Hero: React.FC = () => {
             </span>
           </div>
 
-          <h1 className="font-heading text-5xl md:text-7xl font-bold text-heading mb-6 leading-tight">
-            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">{PERSONAL_INFO.name}</span>! <span className="inline-block animate-bounce">👋</span>
+          <h1 className="font-heading text-4xl md:text-7xl font-bold text-heading mb-6 leading-tight">
+            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary whitespace-nowrap">{PERSONAL_INFO.name}</span>! <span className="inline-block animate-bounce">👋</span>
           </h1>
 
           <p className="text-lg md:text-xl text-text leading-relaxed mb-8 max-w-lg mx-auto md:mx-0">
