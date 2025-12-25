@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
       port: 3000,
       host: '0.0.0.0',
     },
-    base: '/Portfolio/', // ✅ GitHub Pages repo name
+    base: '/', // Updated for custom domain (root path)
     plugins: [react()],
     resolve: {
       alias: {
