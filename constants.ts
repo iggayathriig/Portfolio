@@ -43,7 +43,7 @@ export const EXPERIENCE: ExperienceItem[] = [
   {
     company: "QBurst",
     role: "Senior Engineer",
-    period: "Aug 2021 - Present",
+    period: "Aug 2021 - Present ",
     description: [
       "Delivered and led front-end development across multiple internal and client-facing products spanning fintech, architecture visualization, sports management, and enterprise platforms.",
       "Enterprise System Architecture: Built an interactive system-visualization tool using React Flow, enabling live editing, node relationships, search, zooming, and architectural insights.",
