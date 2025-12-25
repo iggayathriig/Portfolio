@@ -26,19 +26,18 @@ const Header: React.FC = () => {
       <motion.header
         initial={{ y: -100 }}
         animate={{ y: 0 }}
-        className={`w-full max-w-5xl rounded-full transition-all duration-300 pointer-events-auto ${
-          isScrolled 
-            ? 'bg-white/80 backdrop-blur-md shadow-lg shadow-primary/10 py-3 px-6' 
+        className={`w-full max-w-5xl rounded-full transition-all duration-300 pointer-events-auto ${isScrolled
+            ? 'bg-white/80 backdrop-blur-md shadow-lg shadow-primary/10 py-3 px-6'
             : 'bg-transparent py-4 px-4'
-        }`}
+          }`}
       >
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center gap-2 group">
             <div className="bg-gradient-to-tr from-primary to-secondary text-white p-2 rounded-full shadow-md group-hover:scale-110 transition-transform">
-                <Heart size={18} fill="currentColor" />
+              <Heart size={18} fill="currentColor" />
             </div>
             <span className="font-heading font-bold text-xl text-heading tracking-tight">
-              G.IG
+              Gayathri
             </span>
           </a>
 
@@ -66,7 +65,7 @@ const Header: React.FC = () => {
 
         {/* Mobile Nav Dropdown */}
         {isMobileMenuOpen && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 10, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             className="md:hidden absolute top-full left-0 right-0 mt-4 mx-4 bg-white rounded-3xl shadow-xl border border-primary/10 overflow-hidden pointer-events-auto"
