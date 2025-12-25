@@ -4,7 +4,8 @@ export const PERSONAL_INFO = {
   name: "Gayathri I G",
   role: "Senior Frontend Engineer",
   email: "itsgayathriig@gmail.com",
-  summary: "Over four years of software development experience specializing in designing and implementing responsive, high-performance web applications. Extensive programming skills in ReactJS, TypeScript, and JavaScript, with proficiency in unit testing methodologies."
+  summary: "Over four years of software development experience specializing in designing and implementing responsive, high-performance web applications. Extensive programming skills in ReactJS, TypeScript, and JavaScript, with proficiency in unit testing methodologies.",
+  avatar: "/avatar.jpg"
 };
 
 export const SKILLS: SkillCategory[] = [

@@ -76,8 +76,8 @@ const Hero: React.FC = () => {
             <div className="absolute inset-4 bg-white rounded-full shadow-2xl flex items-center justify-center overflow-hidden border-8 border-white">
               {/* Avatar Placeholder: Replace src with actual image if available, or use this cute default */}
               <img
-                src="https://api.dicebear.com/9.x/micah/svg?seed=Eliza&facialHair[]&facialHairProbability=0&glassesProbability=0&hair=full&hairColor=000000&mouth=laughing&&shirtColor=ff9a9e"
-                alt="Gayathri Avatar"
+                src={PERSONAL_INFO.avatar}
+                alt={`${PERSONAL_INFO.name} Avatar`}
                 className="w-full h-full object-cover"
               />
             </div>
